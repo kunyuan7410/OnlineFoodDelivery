@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .newStyle1 {
+            font-family: "Arial Black";
+        }
+        .newStyle2 {
+            font-family: Arial;
+        }
+        .newStyle3 {
+            font-family: Calibri;
+        }
+        .auto-style14 {
+            width: 132%;
+        }
+        .auto-style15 {
+            height: 20px;
+            width: 193px;
+        }
+        .auto-style16 {
+            height: 22px;
+            width: 118px;
+            font-size: 15pt;
+            text-align: center;
+        }
+        .auto-style17 {
+            height: 25px;
+            width: 26px;
+        }
+        .auto-style18 {
+            height: 27px;
+            width: 127px;
+        }
+        .auto-style19 {
+            height: 194px;
+            width: 685px;
+        }
+        .auto-style20 {
+            width: 195%;
+            height: 512px;
+         
+        }
+        .newStyle4 {
+            font-family: Calibri;
+        }
+        .auto-style12 {
+            font-family: Calibri;
+        }
+        .auto-style22 {
+            height: 22px;
+            width: 307px;
+            text-align: center;
+        }
+        .auto-style27 {
+            margin-left: 431px;
+        }
+        .newStyle5 {
+            font-family: Arial;
+        }
+        .auto-style29 {
+            width: 257px;
+        }
+        .auto-style30 {
+            width: 50px;
+        }
+        .auto-style32 {
+            width: 433px;
+        }
+        .auto-style34 {
+            width: 115px;
+            text-align: center;
+        }
+        .auto-style35 {
+            width: 461px;
+            text-align: center;
+        }
+        .auto-style36 {
+            width: 2px;
+        }
+        .newStyle6 {
+            font-family: Arial;
+        }
+        .newStyle7 {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .auto-style37 {
+            font-family: "Times New Roman", Times, serif;
+            text-decoration: none;
+            font-size: 16pt;
+        }
+        </style>
+</head>
+<body style="height: 661px; width: 941px;">
+    <form id="form1" runat="server">
+    <div>
+         <asp:Panel ID="Panel1" runat="server" Height="120px" CssClass="auto-style27" Width="797px">
+         <table class="auto-style14">
+                <tr>
+                    <td class="auto-style15">
+                <asp:Image ID="Image3" runat="server" Height="111px" ImageUrl="~/images/12004757_1149670208381045_4370159132043198781_n.jpg" Width="116px" />
+                    </td>
+                    <td class="auto-style16"><strong>
+<asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style37" NavigateUrl="~/Home.aspx" ForeColor="Black">HOME</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style22"> <strong>
+                        <asp:HyperLink ID="HyperLink8" runat="server" CssClass="auto-style37" ForeColor="Black" NavigateUrl="~/AboutUs.aspx">ABOUT US</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style34"><strong>
+                        <asp:HyperLink ID="HyperLink9" runat="server" CssClass="auto-style37" ForeColor="Black" NavigateUrl="~/Menu1.aspx">MENU</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style35"><strong>
+                        <asp:HyperLink ID="HyperLink11" runat="server" CssClass="auto-style37" ForeColor="Black" NavigateUrl="~/feedback.aspx">SEND FEEDBACK</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style29">&nbsp;</td>
+                    <td class="auto-style32">&nbsp;</td>
+                    <td class="auto-style17">
+                        <asp:HyperLink ID="HyperLink5" runat="server" ImageHeight="20px" ImageUrl="~/images/img_212919.png">tetetete</asp:HyperLink>
+                    </td>
+                    <td class="auto-style36"><asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#FF80A9"></asp:Label></td>
+                    <td class="auto-style18">
+                        
+                        <strong><asp:HyperLink ID="HyperLink6" runat="server" CssClass="auto-style12" ForeColor="#FF80A9" NavigateUrl="~/UserLogin.aspx">LOGIN</asp:HyperLink>
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Logout</asp:LinkButton>
+                        </strong></td>
+                    <td class="auto-style30"> 
+                        <asp:HyperLink ID="HyperLink10" runat="server" ImageHeight="45px" ImageUrl="~/images/pink-shopping-cart-icon-17.gif" NavigateUrl="~/EmptyCart.aspx">HyperLink</asp:HyperLink>
+                        <asp:ImageButton ID="ImageButton1" runat="server" Height="45px" ImageUrl="~/images/pink-shopping-cart-icon-17.gif" OnClick="ImageButton1_Click" />
+                    </td>
+                    <td>
+                        <asp:Label ID="Label3" runat="server" CssClass="newStyle5" ForeColor="#EC3594"></asp:Label>
+                    </td>
+                </tr>
+            </table>
+             </asp:Panel>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <table class="auto-style20">
+                <tr>
+                    <td class="auto-style19"></td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .newStyle1 {
+            font-family: "Arial Black";
+        }
+        .newStyle2 {
+            font-family: Arial;
+        }
+        .newStyle3 {
+            font-family: Calibri;
+        }
+        .auto-style14 {
+            width: 132%;
+        }
+        .auto-style15 {
+            height: 20px;
+            width: 283px;
+        }
+        .auto-style16 {
+            height: 22px;
+            width: 771px;
+        }
+        .auto-style17 {
+            height: 25px;
+            width: 48px;
+        }
+        .auto-style18 {
+            height: 27px;
+            width: 301px;
+        }
+        .auto-style19 {
+            height: 194px;
+            width: 685px;
+        }
+        .auto-style20 {
+            width: 195%;
+            height: 512px;
+         
+        }
+        .newStyle4 {
+            font-family: Calibri;
+        }
+        .auto-style25 {
+            width: 2232px;
+        }
+        .auto-style26 {
+            font-family: Calibri;
+            font-size: 17pt;
+            text-decoration: none;
+        }
+        .auto-style27 {
+            margin-left: 431px;
+        }
+        .newStyle5 {
+            font-family: Arial;
+        }
+        .auto-style29 {
+            width: 728px;
+        }
+        .auto-style30 {
+            width: 785px;
+        }
+        .auto-style31 {
+            height: 22px;
+            width: 721px;
+        }
+        </style>
+</head>
+<body style="height: 661px; width: 1119px;">
+    <form id="form1" runat="server">
+    <div>
+         <asp:Panel ID="Panel1" runat="server" Height="120px" CssClass="auto-style27" Width="797px">
+         <table class="auto-style14">
+                <tr>
+                    <td class="auto-style15">
+                <asp:Image ID="Image3" runat="server" Height="111px" ImageUrl="~/images/12004757_1149670208381045_4370159132043198781_n.jpg" Width="116px" />
+                    </td>
+                    <td class="auto-style16"><strong>
+<asp:HyperLink ID="HyperLink13" runat="server" CssClass="auto-style26" NavigateUrl="~/AddMenu.aspx" ForeColor="Black">Add Menu</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style31"> <strong>
+                        <asp:HyperLink ID="HyperLink8" runat="server" CssClass="auto-style26" ForeColor="Black" NavigateUrl="~/UserOrder(Cash).aspx">User Order</asp:HyperLink>
+                        <br />
+                        <asp:HyperLink ID="HyperLink14" runat="server" CssClass="auto-style26" ForeColor="Black" NavigateUrl="~/UserOrder(Cash).aspx">(By Cash)</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style30"> <strong>
+                        <asp:HyperLink ID="HyperLink9" runat="server" CssClass="auto-style26" ForeColor="Black" NavigateUrl="~/PaymentOrder.aspx">User Order</asp:HyperLink>
+                        <br />
+                        <asp:HyperLink ID="HyperLink15" runat="server" CssClass="auto-style26" ForeColor="Black" NavigateUrl="~/PaymentOrder.aspx">(Credit Card)</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style29"><strong>
+                        <asp:HyperLink ID="HyperLink10" runat="server" CssClass="auto-style26" ForeColor="Black" NavigateUrl="~/UserFeedback.aspx">User Feedback</asp:HyperLink>
+                        </strong></td>
+                    <td class="auto-style25">&nbsp;</td>
+                    <td></td>
+                    <td class="auto-style17">
+                        <asp:HyperLink ID="HyperLink5" runat="server" ImageHeight="20px" ImageUrl="~/images/img_212919.png">tetetete</asp:HyperLink>
+                    </td>
+                    <td><asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#FF80A9"></asp:Label></td>
+                    <td class="auto-style18">
+                        
+                        <strong>
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Logout</asp:LinkButton>
+                        </strong></td>
+                </tr>
+            </table>
+             </asp:Panel>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <table class="auto-style20">
+                <tr>
+                    <td class="auto-style19"></td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
